@@ -199,7 +199,7 @@ header>a {
 }
 
 .grid__item>div:nth-child(2) {
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,8 +285,7 @@ header>a {
     background-color: rgb(201, 0, 0);
 }
 
-.hero__grid_filter {
-    grid-column: 2 / 4;
-    grid-row: 4 / 5;
+#hero__grid_filter {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
 }
-
