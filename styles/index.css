@@ -289,3 +289,104 @@ header>a {
     grid-column: 4 / 5;
     grid-row: 2 / 4;
 }
+
+#hero__grid_filter form {
+    padding: 25px;
+}
+
+.filter__color>div:nth-child(1),
+.filter__country>div:nth-child(1),
+.filter__material>div:nth-child(1),
+.filter__size>div:nth-child(1),
+.filter__price>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filter__color>div:nth-child(1) p,
+.filter__country>div:nth-child(1) p,
+.filter__material>div:nth-child(1) p,
+.filter__size>div:nth-child(1) p,
+.filter__price>div:nth-child(1) p {
+    color: rgb(34, 34, 34);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.filter__price>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 22px;
+}
+
+.filter__price>div:nth-child(2) svg {
+    margin: 0 16px;
+}
+
+.filter__price>div:nth-child(2) input {
+    min-width: 50px;
+    max-width: 106px;
+    min-height: 34px;
+    box-sizing: border-box;
+    border: 1px solid rgb(201, 0, 0);
+}
+
+.filter__price>input {
+    width: 100%;
+}
+
+.filter__price {
+    margin-bottom: 30px;
+}
+
+.filter__color>div:nth-child(2),
+.filter__country>div:nth-child(2),
+.filter__material>div:nth-child(2),
+.filter__size>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.filter__color>div:nth-child(2) label,
+.filter__country>div:nth-child(2) label,
+.filter__material>div:nth-child(2) label,
+.filter__size>div:nth-child(2) label {
+    color: rgba(34, 34, 34, 0.8);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.filter__color>div:nth-child(2) input,
+.filter__country>div:nth-child(2) input,
+.filter__material>div:nth-child(2) input,
+.filter__size>div:nth-child(2) input {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.filter__color>div:nth-child(2) div,
+.filter__country>div:nth-child(2) div,
+.filter__material>div:nth-child(2) div,
+.filter__size>div:nth-child(2) div {
+    margin-bottom: 10px;
+}
+
+.filter__color,
+.filter__country,
+.filter__material,
+.filter__size {
+    margin-bottom: 10px;
+}
